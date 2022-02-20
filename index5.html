@@ -4,23 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Browse</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <section class="header flex">
       <div class="header__left flex">
         <img src="/img/Full Logo.png" alt="logo" />
-        <a href="index1.html">Browse</a>
+        <a href="index.html">Home</a>
         <a href="index7.html">Library</a>
-        <a href="index.html" class="header__left--active">Home</a>
+        <a href="#" class="header__left--active">Browse</a>
+        <a href="#">Genres & Moods / <span style="color: white">Rock</span></a>
       </div>
       <!-- <div class="header__middle flex">
-        <a href="#" class="header__middle--active">Playlists</a>
-        <a href="#">Albums</a>
-        <a href="#">Artists</a>
-        <a href="#">Podcasts</a>
-        <a href="#">Listening History</a>
+        <a href="index1.html">Genres and Moods</a>
+        <a href="#">New Realises</a>
+        <a href="index2.html" class="header__middle--active">Podcasts</a>
       </div> -->
       <div class="header__right flex">
         <div class="header__right--search flex">
@@ -39,153 +38,14 @@
       </div>
     </section>
 
-    <section class="flow container">
-      <div class="flow__title flex">
-        <h1>Flow</h1>
-        <p>...</p>
+    <section class="rock">
+      <div class="rock__title flexgap container">
+        <h1>Rock</h1>
+        <a href="index4.html">OVERVIEW</a>
+        <a href="index5.html" class="rock__title--active">PLAYLISTS</a>
+        <a href="#">NEW REALESEAS</a>
+        <a href="#">ARTISTS</a>
       </div>
-      <div class="flow__card grid3">
-        <img src="index_img/Flow (Concert).png" alt="" />
-        <img src="index_img/Flow (Perfect).png" alt="" />
-        <img src="index_img/Flow (Personal).png" alt="" />
-      </div>
-    </section>
-
-    <section class="recent container">
-      <div class="recent__title flex">
-        <h1>Recently played</h1>
-        <ion-icon
-          name="chevron-forward-outline"
-          style="font-size: 3rem"
-        ></ion-icon>
-      </div>
-      <div class="recent__card grid6">
-        <div class="recent__card--all">
-          <img src="index_img/Mask Group 305.png" alt="" />
-          <div class="recent__card--all--text">
-            <h2>Queen</h2>
-            <div class="recent__card--all--text--bottom">
-              <ion-icon name="heart-outline"></ion-icon>
-              <p>434535</p>
-            </div>
-          </div>
-        </div>
-        <div class="recent__card--all">
-          <img src="index_img/PLAYLIST RADIO.png" alt="" />
-          <div class="recent__card--all--text">
-            <h2>Queen</h2>
-            <div class="recent__card--all--text--bottom">
-              <ion-icon name="heart-outline"></ion-icon>
-              <p>434535</p>
-            </div>
-          </div>
-        </div>
-        <div class="recent__card--all">
-          <img src="index_img/PROG ROCK.png" alt="" />
-          <div class="recent__card--all--text">
-            <h1>Queen</h1>
-            <div class="recent__card--all--text--bottom">
-              <ion-icon name="heart-outline"></ion-icon>
-              <p>434535</p>
-            </div>
-          </div>
-        </div>
-        <div class="recent__card--all">
-          <img src="index_img/Image 591.png" alt="" />
-          <div class="recent__card--all--text">
-            <h1>Queen</h1>
-            <div class="recent__card--all--text--bottom">
-              <ion-icon name="heart-outline"></ion-icon>
-              <p>434535</p>
-            </div>
-          </div>
-        </div>
-        <div class="recent__card--all">
-          <img src="index_img/70s ROCK.png" alt="" />
-          <div class="recent__card--all--text">
-            <h1>Queen</h1>
-            <div class="recent__card--all--text--bottom">
-              <ion-icon name="heart-outline"></ion-icon>
-              <p>434535</p>
-            </div>
-          </div>
-        </div>
-        <div class="recent__card--all">
-          <img src="index_img/Mask Group 346.png" alt="" />
-          <div class="recent__card--all--text">
-            <h1>Queen</h1>
-            <div class="recent__card--all--text--bottom">
-              <ion-icon name="heart-outline"></ion-icon>
-              <p>434535</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <div class="player">
-      <div class="player__inner">
-          <div class="player__actress">
-              <div class="player__actress--image">
-                  <img class="baw-img" src="img/image_2022-02-17_20-53-04.png" alt="">
-              </div>
-              <div class="player__actress--name">
-                  <h3>Rebel Rebel</h3>
-                  <span>David Bowie</span>
-              </div>
-              <div class="player__actress--icons">
-                  <input type="checkbox" id="heart">
-                  <label class="heart" for="heart">
-                      <ion-icon name="heart"></ion-icon>
-                      </ion-icon>
-                  </label>
-                  <ion-icon name="checkmark-outline"></ion-icon>
-              </div>
-          </div>
-          <div class="player__box">
-              <div class="controls">
-                  <div class="controls__left">
-                      <ion-icon name="shuffle-outline"></ion-icon>
-                      <ion-icon name="play-skip-back-outline"></ion-icon>
-                  </div>
-                  <div class="controls__play--pause">
-                      <ion-icon name="pause-outline"></ion-icon>
-                  </div>
-                  <div class="controls__right">
-                      <ion-icon name="play-skip-forward-outline"></ion-icon>
-                      <ion-icon name="repeat-outline"></ion-icon>
-                  </div>
-              </div>
-              <div class="range">
-                  <div class="range--left">
-                      1:02
-                  </div>
-                  <div class="range--index">
-                      <div class="bar"></div>
-                      <div class="dot"></div>
-                      <!-- <input class="range--line" type="range" min="0" max="100%" value="0"> -->
-                  </div>
-                  <div class="range--right">
-                      2.64
-                  </div>
-              </div>
-          </div>
-          <div class="player__volume">
-              <ion-icon name="list-outline"></ion-icon>
-              <ion-icon name="volume-medium-outline"></ion-icon>
-              <div class="vol"></div>
-          </div>
-      </div>
-    </div>
-
-    <section class="hip-hop grid6 container">
-      <img src="/index_img/HIP - HOP.png" alt="">
-      <img src="/index_img/rock.png" alt="">
-      <img src="/index_img/POP.png" alt="">
-      <img src="/index_img/Country.png" alt="">
-      <img src="/index_img/DANCE - ELECTRO.png" alt="">
-      <img src="/index_img/Indie.png" alt="">
     </section>
 
     <section class="monday container">
@@ -195,7 +55,7 @@
       </div>
       <div class="recent__card grid6">
         <div class="recent__card--all">
-          <img src="index_img/Mask Group 305.png" alt="" />
+          <img src="index5.img/80s ROCK.png" alt="" />
           <div class="recent__card--all--text">
             <h2>Queen</h2>
             <div class="recent__card--all--text--bottom">
@@ -205,7 +65,7 @@
           </div>
         </div>
         <div class="recent__card--all">
-          <img src="index_img/PLAYLIST RADIO.png" alt="" />
+          <img src="index5.img/90s ALTERNATIVE.png" alt="" />
           <div class="recent__card--all--text">
             <h2>Queen</h2>
             <div class="recent__card--all--text--bottom">
@@ -215,7 +75,7 @@
           </div>
         </div>
         <div class="recent__card--all">
-          <img src="index_img/PROG ROCK.png" alt="" />
+          <img src="index5.img/INDIE ROCK.png" alt="" />
           <div class="recent__card--all--text">
             <h1>Queen</h1>
             <div class="recent__card--all--text--bottom">
@@ -225,7 +85,7 @@
           </div>
         </div>
         <div class="recent__card--all">
-          <img src="index_img/Image 591.png" alt="" />
+          <img src="index5.img/LOVE ROCK.png" alt="" />
           <div class="recent__card--all--text">
             <h1>Queen</h1>
             <div class="recent__card--all--text--bottom">
@@ -235,7 +95,7 @@
           </div>
         </div>
         <div class="recent__card--all">
-          <img src="index_img/70s ROCK.png" alt="" />
+          <img src="index5.img/PROG ROCK.png" alt="" />
           <div class="recent__card--all--text">
             <h1>Queen</h1>
             <div class="recent__card--all--text--bottom">
@@ -245,7 +105,7 @@
           </div>
         </div>
         <div class="recent__card--all">
-          <img src="index_img/Mask Group 346.png" alt="" />
+          <img src="index5.img/ROCKABILLY.png" alt="" />
           <div class="recent__card--all--text">
             <h1>Queen</h1>
             <div class="recent__card--all--text--bottom">
@@ -254,18 +114,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="recent container">
-      <div class="recent__title flex">
-        <h1>Recently played</h1>
-        <ion-icon
-          name="chevron-forward-outline"
-          style="font-size: 3rem"
-        ></ion-icon>
-      </div>
-      <div class="recent__card grid6">
         <div class="recent__card--all">
           <img src="index_img/Mask Group 305.png" alt="" />
           <div class="recent__card--all--text">
@@ -276,8 +124,9 @@
             </div>
           </div>
         </div>
+
         <div class="recent__card--all">
-          <img src="index_img/PLAYLIST RADIO.png" alt="" />
+          <img src="index5.img/80s ROCK.png" alt="" />
           <div class="recent__card--all--text">
             <h2>Queen</h2>
             <div class="recent__card--all--text--bottom">
@@ -287,7 +136,17 @@
           </div>
         </div>
         <div class="recent__card--all">
-          <img src="index_img/PROG ROCK.png" alt="" />
+          <img src="index5.img/90s ALTERNATIVE.png" alt="" />
+          <div class="recent__card--all--text">
+            <h2>Queen</h2>
+            <div class="recent__card--all--text--bottom">
+              <ion-icon name="heart-outline"></ion-icon>
+              <p>434535</p>
+            </div>
+          </div>
+        </div>
+        <div class="recent__card--all">
+          <img src="index5.img/INDIE ROCK.png" alt="" />
           <div class="recent__card--all--text">
             <h1>Queen</h1>
             <div class="recent__card--all--text--bottom">
@@ -297,7 +156,7 @@
           </div>
         </div>
         <div class="recent__card--all">
-          <img src="index_img/Image 591.png" alt="" />
+          <img src="index5.img/LOVE ROCK.png" alt="" />
           <div class="recent__card--all--text">
             <h1>Queen</h1>
             <div class="recent__card--all--text--bottom">
@@ -307,7 +166,7 @@
           </div>
         </div>
         <div class="recent__card--all">
-          <img src="index_img/70s ROCK.png" alt="" />
+          <img src="index5.img/PROG ROCK.png" alt="" />
           <div class="recent__card--all--text">
             <h1>Queen</h1>
             <div class="recent__card--all--text--bottom">
@@ -317,7 +176,58 @@
           </div>
         </div>
         <div class="recent__card--all">
-          <img src="index_img/Mask Group 346.png" alt="" />
+          <img src="index5.img/ROCKABILLY.png" alt="" />
+          <div class="recent__card--all--text">
+            <h1>Queen</h1>
+            <div class="recent__card--all--text--bottom">
+              <ion-icon name="heart-outline"></ion-icon>
+              <p>434535</p>
+            </div>
+          </div>
+        </div>
+        <div class="recent__card--all">
+          <img src="index_img/Mask Group 305.png" alt="" />
+          <div class="recent__card--all--text">
+            <h2>Queen</h2>
+            <div class="recent__card--all--text--bottom">
+              <ion-icon name="heart-outline"></ion-icon>
+              <p>434535</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="recent__card--all">
+          <img src="index5.img/80s ROCK.png" alt="" />
+          <div class="recent__card--all--text">
+            <h2>Queen</h2>
+            <div class="recent__card--all--text--bottom">
+              <ion-icon name="heart-outline"></ion-icon>
+              <p>434535</p>
+            </div>
+          </div>
+        </div>
+        <div class="recent__card--all">
+          <img src="index5.img/90s ALTERNATIVE.png" alt="" />
+          <div class="recent__card--all--text">
+            <h2>Queen</h2>
+            <div class="recent__card--all--text--bottom">
+              <ion-icon name="heart-outline"></ion-icon>
+              <p>434535</p>
+            </div>
+          </div>
+        </div>
+        <div class="recent__card--all">
+          <img src="index5.img/INDIE ROCK.png" alt="" />
+          <div class="recent__card--all--text">
+            <h1>Queen</h1>
+            <div class="recent__card--all--text--bottom">
+              <ion-icon name="heart-outline"></ion-icon>
+              <p>434535</p>
+            </div>
+          </div>
+        </div>
+        <div class="recent__card--all">
+          <img src="index5.img/LOVE ROCK.png" alt="" />
           <div class="recent__card--all--text">
             <h1>Queen</h1>
             <div class="recent__card--all--text--bottom">
@@ -328,7 +238,6 @@
         </div>
       </div>
     </section>
-
 
     <script
       type="module"

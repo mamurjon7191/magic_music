@@ -200,6 +200,43 @@ body {
 .startalksRights--top {
   gap: 2rem; }
 
+.rock {
+  margin-bottom: 4rem; }
+  .rock__title {
+    color: white; }
+    .rock__title a {
+      text-decoration: none;
+      font-size: 1.6rem;
+      color: #99999f;
+      font-size: 1.2rem;
+      color: white; }
+    .rock__title--active {
+      position: relative; }
+      .rock__title--active::before {
+        content: "";
+        position: absolute;
+        bottom: -1.5rem;
+        left: 25%;
+        width: 50%;
+        height: 3px;
+        background-color: blueviolet;
+        opacity: 1;
+        transition: 0.4s; }
+    .rock__title h1 {
+      font-size: 4rem; }
+
+.artists {
+  margin-top: 5rem; }
+
+.artists__main {
+  margin-top: 3rem; }
+  .artists__main--1 {
+    text-align: center;
+    color: white;
+    line-height: 1.6; }
+    .artists__main--1 img {
+      width: 100%; }
+
 .popular__button {
   text-align: center;
   margin-top: 5rem;
@@ -244,6 +281,114 @@ body {
 .star {
   color: white;
   padding-top: 5rem; }
+
+.startalks__music--tittle {
+  margin-top: 5rem;
+  color: #99999f;
+  font-size: 1.6rem; }
+  .startalks__music--tittle--left {
+    gap: 1rem; }
+    .startalks__music--tittle--left ion-icon {
+      font-size: 3rem; }
+  .startalks__music--tittle--right p {
+    font-size: 3rem;
+    color: white; }
+
+.startalks__music--table {
+  color: #99999f;
+  margin-top: 2rem;
+  font-size: 1.4rem; }
+
+.startalks__music--table1 {
+  color: #99999f;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  line-height: 1.7; }
+  .startalks__music--table1--1--left {
+    margin-top: -3rem; }
+    .startalks__music--table1--1--left label {
+      position: relative; }
+    .startalks__music--table1--1--left input {
+      display: none; }
+    .startalks__music--table1--1--left input:checked ~ .ion2 {
+      opacity: 1;
+      visibility: visible; }
+    .startalks__music--table1--1--left input:checked ~ .ion1 {
+      opacity: 0;
+      visibility: hidden; }
+    .startalks__music--table1--1--left ion-icon {
+      color: white;
+      font-size: 3rem;
+      position: absolute;
+      transition: 0.4s all; }
+    .startalks__music--table1--1--left .ion2 {
+      opacity: 0; }
+  .startalks__music--table1--1--right {
+    line-height: 1.7; }
+    .startalks__music--table1--1--right h1 {
+      color: rgba(255, 255, 255, 0.801); }
+  .startalks__music--table1--2--grad {
+    width: 100%;
+    background-color: #99999f;
+    height: 3px;
+    position: relative; }
+    .startalks__music--table1--2--grad::before {
+      content: "";
+      position: absolute;
+      width: 70%;
+      background-color: #1157ec;
+      top: 0;
+      left: 0;
+      height: 3px; }
+
+.new_playlist {
+  color: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  border: 1px solid white;
+  width: 30%;
+  background-color: #3a3a3d;
+  transform: translate(-50%, -50%);
+  padding: 2rem; }
+  .new_playlist h2 {
+    margin-top: 2rem; }
+  .new_playlist .cr7 {
+    background-image: linear-gradient(to left, #4827eb, #1897b9) !important;
+    border: none; }
+  .new_playlist .cr6 {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #99999f;
+    color: white;
+    margin-top: 2rem;
+    border: 1px solid white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem; }
+  .new_playlist textarea {
+    color: white;
+    resize: none;
+    margin-top: 2rem;
+    width: 100%;
+    background: none;
+    outline: none;
+    border-bottom: 3px solid #99999f; }
+  .new_playlist .wtf {
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 4px solid blueviolet; }
+  .new_playlist--title ion-icon {
+    font-size: 3rem;
+    color: white; }
+
+#play_new1 {
+  opacity: 0; }
+
+#play_new1:target {
+  opacity: 1; }
+
+#new_play:target #play_new1 {
+  opacity: 0; }
 
 .player {
   margin-top: 5rem;
@@ -418,6 +563,11 @@ ion-icon {
   align-items: center;
   flex-wrap: wrap; }
 
+.flexgap {
+  display: flex;
+  gap: 2rem;
+  align-items: center; }
+
 .grid3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -426,10 +576,24 @@ ion-icon {
 .grid6 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 2rem; }
+  gap: 2rem;
+  column-gap: 3rem;
+  row-gap: 5rem; }
 
 .gridf {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 1rem;
+  align-items: center; }
+
+.gridm {
+  display: grid;
+  grid-template-columns: 8fr 1fr 1fr 0.5fr;
+  gap: 2rem;
+  align-items: center; }
+
+.gridg {
+  display: grid;
+  grid-template-columns: 0.5fr 8fr 1fr 1fr 0.5fr;
+  gap: 2rem;
   align-items: center; }

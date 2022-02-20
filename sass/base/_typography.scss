@@ -223,3 +223,46 @@
 .startalksRights--top {
   gap: 2rem;
 }
+
+.rock {
+  margin-bottom: 4rem;
+  &__title {
+    color: white;
+    a {
+      @include link;
+      font-size: 1.2rem;
+      color: white;
+    }
+    &--active {
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -1.5rem;
+        left: 25%;
+        width: 50%;
+        height: 3px;
+        background-color: blueviolet;
+        opacity: 1;
+        transition: 0.4s;
+      }
+    }
+    h1 {
+      font-size: 4rem;
+    }
+  }
+}
+.artists {
+  margin-top: 5rem;
+}
+.artists__main {
+  margin-top: 3rem;
+  &--1 {
+    text-align: center;
+    color: white;
+    line-height: 1.6;
+    img {
+      width: 100%;
+    }
+  }
+}
