@@ -171,3 +171,86 @@
 #new_play:target #play_new1 {
   opacity: 0;
 }
+
+.today {
+  &__title {
+    margin-top: 4rem;
+    color: white;
+    font-size: 1.6rem;
+  }
+}
+.today__main {
+  margin-top: 3rem;
+  p {
+    font-size: 1.6rem;
+    color: $image-bottom-dark;
+  }
+  .white {
+    color: rgba(255, 255, 255, 0.835);
+  }
+  ion-icon {
+    color: white;
+    font-size: 2rem;
+  }
+}
+.today2 {
+  margin-top: 10rem;
+  &--btn {
+    margin-top: 5rem;
+    a {
+      border-radius: 2rem;
+      @include link;
+      color: white;
+      border: 1px solid white;
+      padding: 0.8rem 2rem;
+    }
+    text-align: center;
+  }
+}
+.today__title ion-icon {
+  font-size: 3rem;
+}
+.march {
+  color: white;
+  margin-top: 3rem;
+  a {
+    @include link;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+.pod__search {
+  transform: translate(150%);
+  opacity: 0;
+  transition: 1s all;
+  &:target {
+    transform: translate(0);
+    opacity: 1;
+  }
+  position: absolute;
+  width: 22vw;
+  height: 80vh;
+  top: 9vh;
+  right: 3vw;
+  background-color: #303033;
+  padding: 2rem;
+  color: white;
+  &--title {
+    margin: 1rem 0rem;
+    margin-bottom: 3rem;
+    .cl {
+      color: $image-bottom-dark;
+      font-weight: 500;
+    }
+  }
+  &--1 {
+    line-height: 1.6;
+    h2 {
+      color: rgba(255, 255, 255, 0.808);
+    }
+    p {
+      color: $image-bottom-dark;
+    }
+  }
+}

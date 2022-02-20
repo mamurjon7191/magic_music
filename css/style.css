@@ -7,6 +7,7 @@ html {
   font-size: 62.5%; }
 
 body {
+  overflow-x: hidden;
   background-color: #161a1a;
   padding: 0 3rem;
   font-family: sans-serif; }
@@ -390,6 +391,77 @@ body {
 #new_play:target #play_new1 {
   opacity: 0; }
 
+.today__title {
+  margin-top: 4rem;
+  color: white;
+  font-size: 1.6rem; }
+
+.today__main {
+  margin-top: 3rem; }
+  .today__main p {
+    font-size: 1.6rem;
+    color: #99999f; }
+  .today__main .white {
+    color: rgba(255, 255, 255, 0.835); }
+  .today__main ion-icon {
+    color: white;
+    font-size: 2rem; }
+
+.today2 {
+  margin-top: 10rem; }
+  .today2--btn {
+    margin-top: 5rem;
+    text-align: center; }
+    .today2--btn a {
+      border-radius: 2rem;
+      text-decoration: none;
+      font-size: 1.6rem;
+      color: #99999f;
+      color: white;
+      border: 1px solid white;
+      padding: 0.8rem 2rem; }
+
+.today__title ion-icon {
+  font-size: 3rem; }
+
+.march {
+  color: white;
+  margin-top: 3rem; }
+  .march a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #99999f; }
+  .march h1 {
+    font-size: 2rem; }
+
+.pod__search {
+  transform: translate(150%);
+  opacity: 0;
+  transition: 1s all;
+  position: absolute;
+  width: 22vw;
+  height: 80vh;
+  top: 9vh;
+  right: 3vw;
+  background-color: #303033;
+  padding: 2rem;
+  color: white; }
+  .pod__search:target {
+    transform: translate(0);
+    opacity: 1; }
+  .pod__search--title {
+    margin: 1rem 0rem;
+    margin-bottom: 3rem; }
+    .pod__search--title .cl {
+      color: #99999f;
+      font-weight: 500; }
+  .pod__search--1 {
+    line-height: 1.6; }
+    .pod__search--1 h2 {
+      color: rgba(255, 255, 255, 0.808); }
+    .pod__search--1 p {
+      color: #99999f; }
+
 .player {
   margin-top: 5rem;
   margin-bottom: 2rem;
@@ -572,6 +644,14 @@ ion-icon {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem; }
+
+.gridr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10rem;
+  row-gap: 4rem;
+  align-items: center;
+  justify-items: center; }
 
 .grid6 {
   display: grid;
