@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="header flex">
+      <div class="header__left flex">
+        <img src="/img/Full Logo.png" alt="logo" />
+        <a href="index.html">Home</a>
+        <a href="#">Library</a>
+        <a href="#" class="header__left--active">Browse</a>
+        <a href="#"
+          >Podcasts / <span style="color: white">StarTalk Radio</span></a
+        >
+      </div>
+      <!-- <div class="header__middle flex">
+        <a href="index1.html">Genres and Moods</a>
+        <a href="#">New Realises</a>
+        <a href="index2.html" class="header__middle--active">Podcasts</a>
+      </div> -->
+      <div class="header__right flex">
+        <div class="header__right--search flex">
+          <ion-icon name="search-outline"></ion-icon>
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="header__right--profil flex">
+          <ion-icon
+            name="person-circle-outline"
+            style="color: white"
+          ></ion-icon>
+          <select name="profil" id="profil">
+            <option value="profil">John Doe</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="startalks">
+      <div class="container flex star">
+        <div class="startalksLeft">
+          <div class="startalksLeft__side flex">
+            <div class="startalksLeft__side--img">
+              <img src="/index2.img/Image 591.png" alt="" />
+            </div>
+            <div class="startalksLeft__side--info">
+              <p>Podcast</p>
+              <h1>StarTalk Radio</h1>
+              <p>Neil deGrasse Tyson</p>
+              <div class="startalksLeft__side--info--nav flex">
+                <a href="#" class="act">Episodes</a>
+                <a href="#">About</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="startalksRight">
+          <div class="startalksRights--top flex">
+            <button type="submit">Play</button>
+            <ion-icon name="heart-outline"></ion-icon>
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+          <div class="startalksRights--bottom">
+            <p>87.4342 Followers</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

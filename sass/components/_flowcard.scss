@@ -1,0 +1,38 @@
+.flow__card {
+  img {
+    width: 100%;
+  }
+}
+.hip-hop {
+  margin-bottom: 6rem;
+  img {
+    width: 100%;
+  }
+}
+.popular__title--card--1 {
+  img {
+    width: 100%;
+  }
+}
+.popular {
+  margin-top: 5rem;
+}
+.episode {
+  margin-bottom: 10rem;
+  &__card {
+    margin-top: 3rem;
+    color: white;
+    line-height: 2;
+  }
+}
+.startalks {
+  height: 100vh;
+  background-image: url(/index2.img/BG.png);
+  background-position: center;
+  background-size: 80%;
+  background-size: contain;
+}
+.star {
+  color: white;
+  padding-top: 5rem;
+}
